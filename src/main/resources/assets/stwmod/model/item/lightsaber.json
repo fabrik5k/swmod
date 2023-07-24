@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "stwmod:item/lightsaber_desligado"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "pulling": 1
+      },
+      "model": "stwmod:item/lightsaber_ligado"
+    }
+  ]
+}
